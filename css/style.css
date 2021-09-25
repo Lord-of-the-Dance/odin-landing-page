@@ -1,0 +1,98 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+/* Universal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Tag Styles */
+
+a, p {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+header {
+    background-color: #1F2937;
+    color: #FFF;
+    padding: 20px;
+}
+
+nav {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+nav p {
+    font-size: 2em;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Class Styles */
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.header-card {
+    flex: 1;
+}
+
+.header-content {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    padding: 10px 40px;
+    margin-top: 15px;
+    border-radius: 7px;
+    color: #FFF;
+    border: none;
+    font-weight: 800;
+    font-size: 1em;
+}
+
+/* ID Styles */
+
+#header-content {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5%;
+}
+
+#header-img {
+    width: 100%;
+}
